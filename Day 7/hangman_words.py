@@ -1,0 +1,1 @@
+word_list = ["abruptly", "absurdly", "ian", "hangman", "hello", "bye", "python"]
