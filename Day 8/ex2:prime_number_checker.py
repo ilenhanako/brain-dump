@@ -1,4 +1,4 @@
-#NOT FINISHEDDDDDDDDDDDDDD
+#NOT finished
 
 def prime_checker(number):
     number %= 2

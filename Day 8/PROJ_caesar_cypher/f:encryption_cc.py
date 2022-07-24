@@ -7,12 +7,14 @@ input_shift = int(input("Type the shift number:\n"))
 #TODO-1: Create a function called 'encrypt' that takes the 'text' and 'shift' as inputs.
 def encrypt(text, shift):
     #TODO-2: Inside the 'encrypt' function, shift each letter of the 'text' forwards in the alphabet by the shift amount and print the encrypted text.
+    encrypted = ""
     for char in text:
-        char_unicode = ord(char) #find position in 0-25
+        chaar_uc = ord(char) #find position in 0-25
         char_index = ord(char) - ord("a") 
         new_index = (char_index + shift) % 26 #perform the shift
         new_char =  chr(new_index) #find new character
-    print(new_char)
+        encrypted += new_char
+    print(f"The message is {encrypted}")
 
     #e.g. 
     #plain_text = "hello"
