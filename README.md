@@ -1,4 +1,5 @@
-# Python-100-Days-Of-Coding
+# 100 Days Of Code: The Complete Python Pro Bootcamp for 2022
+## Udemy, Angela Yu
 Tips to learn how to code:
 1. Mindset
 Coding Mindset - a solution for every problem, google everything and do it
