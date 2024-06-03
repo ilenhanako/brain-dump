@@ -21,3 +21,6 @@ Practice Interviews
 3. Learn the Terminal
 4. Learn your coding editor
 5. Learn Git and use it for version control
+
+__Commands:__
+To push to git: Source control - type in message - 3 dots, push - tick - click again
