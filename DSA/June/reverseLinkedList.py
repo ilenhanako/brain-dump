@@ -11,10 +11,12 @@ def reverseLinkedList(head):
     curr = head #initialise at head
     prev = None # initialise at null
     
-    while not curr:
-        prev = curr
-        curr = curr.next()
-    return prev
+    while curr != None:
+        nxt = curr.next #IMPT: store next node
+        curr.next = prev #IMPT: reverse pointer of current node
+        prev = curr #move prev to current node
+        curr = nxt #move curr to next node
+    return prev #prev = new head of reversed list
 
 head = [1, 2, 3, 4, 5]
 print(reverseLinkedList(head))
