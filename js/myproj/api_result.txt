@@ -1,0 +1,16 @@
+{
+  "args": {
+    "x": "fff"
+  },
+  "headers": {
+    "host": "postman-echo.com",
+    "x-request-start": "t=1718263958.563",
+    "connection": "close",
+    "content-length": "0",
+    "x-forwarded-proto": "https",
+    "x-forwarded-port": "443",
+    "x-amzn-trace-id": "Root=1-666aa096-4f41cb91267027ec46b53e7b",
+    "user-agent": "Mozilla/5.0 (Darwin arm64) node.js/18.18.0 v8/10.2.154.26-node.26"
+  },
+  "url": "https://postman-echo.com/get?x=fff"
+}
