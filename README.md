@@ -39,7 +39,7 @@
 - [ ] Medium of Two Sorted Arrays, *Hard*
 
 ### 5. Sliding Window
-- [X] Best Time to Buy and Sell Stock, *Easy*, **June**
+- [X] 121 Best Time to Buy and Sell Stock, *Easy*, **June**
 - [ ] Longest Substring Without Repeating Characters, *Medium*
 
 ### 6. Linked List
