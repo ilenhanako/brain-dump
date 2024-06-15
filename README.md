@@ -14,14 +14,14 @@
 - [ ] Longest Consecutive Sequence, *Medium*
 
 ### 2. Two Pointers
-- [X] Valid Palindrome, *Easy*, **June**
+- [X] 9 Valid Palindrome, *Easy*, **June**
 - [ ] Two Sum 2 Input Array is Sorted, *Medium*
 - [ ] 3Sum, *Medium*
 - [ ] Container with Most Water, *Medium*
 - [ ] Trapping Rain Water, *Hard*
 
 ### 3. Stack
-- [X] Valid Parentheses, *Easy*, **June**
+- [X] 20 Valid Parentheses, *Easy*, **June**
 - [ ] Min Stack, *Medium*
 - [ ] Evaluate Reverse Polish Notation, *Medium*
 - [ ] Generate Parentheses, *Medium*
@@ -30,7 +30,7 @@
 - [ ] Largest Rectangle in Histogram, *Hard*
 
 ### 4. Binary Search
-- [X] Binary Search, *Easy*, **June**
+- [X] 704 Binary Search, *Easy*, **June**
 - [ ] Search A 2D Matrix, *Medium*
 - [ ] Koko Eating Bananas, *Medium*
 - [ ] Find Minimum in Rotated Sorted Array, *Medium*
@@ -39,13 +39,13 @@
 - [ ] Medium of Two Sorted Arrays, *Hard*
 
 ### 5. Sliding Window
-- [ ] Best Time to Buy and Sell Stock, *Easy*, **June**
+- [X] Best Time to Buy and Sell Stock, *Easy*, **June**
 - [ ] Longest Substring Without Repeating Characters, *Medium*
 
 ### 6. Linked List
-- [X] Reverse Linked List, *Easy*, **June**
-- [X] Merge Two Sorted Lists, *Easy*, **June**
-- [X] Linked List Cycle, *Easy*, **June**
+- [X] 206 Reverse Linked List, *Easy*, **June**
+- [X] 21 Merge Two Sorted Lists, *Easy*, **June**
+- [X] 144 Linked List Cycle, *Easy*, **June**
 - [ ] Reorder list, *Medium*
 - [ ] Remove Nth Node From End of List, *Medium*
 - [ ] Copy List with Random Pointer, *Medium*
@@ -56,6 +56,12 @@
 - [ ] Reverse Nodes in K Group, *Hard*
 
 ### 7. Trees 
+- [ ] Invert Binary Trees, *Easy*
+- [ ] Max Depth Binary Tree, *Easy*
+- [ ] Diameter of Binary Tree, *Easy*
+- [ ] Balanced Binary Tree, *Easy*
+- [ ] Same Tree, *Easy*
+- [ ] Subtree of Another Tree, *Easy*
 
 ### 8. Tries
 

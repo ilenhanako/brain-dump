@@ -20,9 +20,8 @@ def mergeLinkedList(l1, l2):
         if l1.val < l2.val:
             curr.next = l1 # "adding l1 node to output" move pointer of curr to current node of l1
             l1 = l1.next #move pointer at l1 to next node
-        #elif l2.val < l1.val:
-        # cannot elif as while loop should continue as long as either lists has remaining nodes
-        else: #for remaining cases
+        #elif l2.val <= l1.val:     correct
+        else: 
             curr.next = l2
             l2 = l2.next
         curr = curr.next #move to next node in merge list, ensure always point to last node so that we can add more nodes
