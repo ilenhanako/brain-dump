@@ -1,7 +1,8 @@
 # Welcome to my brain
 
 ## DSA
-> Daily attempt :>
+A daily attempt to complete 150 leetcode questions for fun :>
+> start: 11June
 ### 1. Arrays and Hashing
 - [X] 217 Contains Duplicate, *Easy*, **June**
 - [X] 242 Valid Anagram, *Easy*, **June**
