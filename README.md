@@ -46,7 +46,7 @@ A daily attempt to complete 150 leetcode questions for fun :>
 ### 6. Linked List
 - [X] 206 Reverse Linked List, *Easy*, **June**
 - [X] 21 Merge Two Sorted Lists, *Easy*, **June**
-- [X] 144 Linked List Cycle, *Easy*, **June**
+- [X] 141 Linked List Cycle, *Easy*, **June**
 - [ ] Reorder list, *Medium*
 - [ ] Remove Nth Node From End of List, *Medium*
 - [ ] Copy List with Random Pointer, *Medium*
@@ -57,7 +57,7 @@ A daily attempt to complete 150 leetcode questions for fun :>
 - [ ] Reverse Nodes in K Group, *Hard*
 
 ### 7. Trees 
-- [ ] Invert Binary Trees, *Easy*
+- [ ] 226 Invert Binary Trees, *Easy*
 - [ ] Max Depth Binary Tree, *Easy*
 - [ ] Diameter of Binary Tree, *Easy*
 - [ ] Balanced Binary Tree, *Easy*
