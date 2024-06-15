@@ -16,7 +16,7 @@ def hasCycle(head):
     turtle = head #slow
     rabbit = head #fast
     
-    while rabbit and rabbit.next: #check that list is not empty, not null
+    while rabbit and rabbit.next: #check rabbit has not reached end of list, and that it had a next node to move to
         #if NOT CYCLE: loop will continue until rabbit or rabbit.next is null, indicating end of linked list
         #move tutle and rabbit
         turtle = turtle.next
