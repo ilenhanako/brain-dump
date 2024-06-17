@@ -12,17 +12,22 @@ Output: false
 
 '!!!!! PALINDROME = 2 POINTER QUESTION !!!!!!'
 
-#ATTEMPT 1: error as integer has no len()
 def palindromeNumber(x):
+    
     start = 0
     end = len(x)-1
     
     #Loop till pointers in middle, start cannot cross end
     while start <= end:
         if x[start] == x [end]:
+            start += 1
+            end -= 1
             return True
-        else:
-            return False
+    return False
         
 x = 121
 print(palindromeNumber(x))
+'''
+Documented Errors:
+ATTEMPT 1: error as integer has no len()
+'''
