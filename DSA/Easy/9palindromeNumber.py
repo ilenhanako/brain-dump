@@ -13,7 +13,7 @@ Output: false
 '!!!!! PALINDROME = 2 POINTER QUESTION !!!!!!'
 
 def palindromeNumber(x):
-    
+    x = str(x)
     start = 0
     end = len(x)-1
     
@@ -30,4 +30,5 @@ print(palindromeNumber(x))
 '''
 Documented Errors:
 ATTEMPT 1: error as integer has no len()
+SOLUTION 1: convert int to str. str()
 '''
