@@ -32,9 +32,29 @@ class Solution:
             if nums[i] == nums[i-1]:
                 return True
         return False
+    
+    def hashmap(self, nums : [int]) -> bool:
+        hm = {}
+        for i in range(len(nums)):
+            if nums[i] in hm:
+                return True
+            hm[nums[i]] = 1 + hm.get(nums[i], 0)
+        return False
+    
+    """Easier way: Hashset"""
+    def hashset(self, nums : [int]) -> bool:
+        """WRONG:
+        hs = []
+        """
+        hs = set()
+        for i in range(len(nums)):
+            if nums[i] in hs:
+                return True
+            hs.add(nums[i])
+        return False
         
 sol = Solution()
-result1 = sol.sorting([1,2,3,4,5]) #False
-result2 = sol.sorting([1,2,3,3,4]) #True
-result3 = sol.sorting([42]) #False
+result1 = sol.hashset([1,2,3,4,5]) #False
+result2 = sol.hashset([1,2,3,3,4]) #True
+result3 = sol.hashset([42]) #False
 print(result1, result2, result3)
