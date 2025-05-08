@@ -22,7 +22,7 @@ class Solution:
     def twoPointer(self, s:str) -> bool:
         left ,right = 0, len(s) - 1
         
-        while left < right:
+        while left <= right:
             if not self.alphanumeric(s[left]):
                 left += 1
                 "REMEMBER TO ADD: continue STILL DONT UNDERSTAND WHY...."
